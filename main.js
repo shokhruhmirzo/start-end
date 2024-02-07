@@ -30,3 +30,8 @@ function bt(){
         inp2.style.border = '2px solid red'
     }
 }
+
+document.addEventListener('contextmenu', function (p) {
+    p.preventDefault();
+    alert("Kod ni ko'chirish mumkinmas !!!");
+});
