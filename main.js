@@ -17,7 +17,11 @@ function bt(){
         inp2.style.border = 'none';
         h3.style.display = 'block';
 
-    }else if(val2 == 'start'){
+    }else if(val1 === ''){
+        inp1.style.border = '2px solid red'
+
+    }
+    else if(val2 == 'start'){
         arr.unshift(val1)
         console.log(arr);
         h1.style.display = 'none';
@@ -30,4 +34,3 @@ function bt(){
         inp2.style.border = '2px solid red'
     }
 }
-
